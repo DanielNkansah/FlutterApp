@@ -108,7 +108,7 @@ class _profilePageState extends State<profilePage> {
     try {
       // Send a POST request to the specified URL with the given headers and body
       final response = await http.post(
-          Uri.parse('https://final-project-9a4f3.uc.r.appspot.com'),
+          Uri.parse('https://final-project-9a4f3.uc.r.appspot.com/create_profile'),
           headers: {'Content-Type': 'application/json'},
           body: jsonEncode(data));
 
